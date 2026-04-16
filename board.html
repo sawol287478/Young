@@ -959,7 +959,7 @@
         document.getElementById('inputTitle').value  = post.title;
         document.getElementById('inputBody').value   = post.body;
 
-        closeDetailModal();
+        document.getElementById('detailModal').classList.remove('open');
         document.getElementById('writeModal').classList.add('open');
     }
 
